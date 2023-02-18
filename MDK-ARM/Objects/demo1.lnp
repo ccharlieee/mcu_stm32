@@ -6,6 +6,8 @@
 ".\objects\uart.o"
 ".\objects\uart_dma.o"
 ".\objects\dma.o"
+".\objects\oled.o"
+".\objects\sys.o"
 ".\objects\misc.o"
 ".\objects\stm32f10x_adc.o"
 ".\objects\stm32f10x_bkp.o"
