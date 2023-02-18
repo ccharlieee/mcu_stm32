@@ -472,6 +472,36 @@
               <FileType>1</FileType>
               <FilePath>..\USER\src\dma.c</FilePath>
             </File>
+            <File>
+              <FileName>oled.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\USER\inc\oled.h</FilePath>
+            </File>
+            <File>
+              <FileName>bmp.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\USER\inc\bmp.h</FilePath>
+            </File>
+            <File>
+              <FileName>oledfont.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\USER\inc\oledfont.h</FilePath>
+            </File>
+            <File>
+              <FileName>sys.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\USER\inc\sys.h</FilePath>
+            </File>
+            <File>
+              <FileName>oled.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER\src\oled.c</FilePath>
+            </File>
+            <File>
+              <FileName>sys.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER\src\sys.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
