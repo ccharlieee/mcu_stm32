@@ -31,7 +31,11 @@
 #include "oled.h"
 #include "stdlib.h"
 #include "oledfont.h" 
-#include "led.h"
+#include "delay.h"
+
+int hour ;
+int min ;
+int second ;
 
 //OLED的显存
 //存放格式如下.
@@ -43,6 +47,8 @@
 //[5]0 1 2 3 ... 127	
 //[6]0 1 2 3 ... 127	
 //[7]0 1 2 3 ... 127 			   
+
+
 
 #if OLED_MODE==1
 //向SSD1106写入一个字节。

@@ -1,6 +1,7 @@
 #include "led.h"
 #include <stm32f10x_gpio.h>
 #include <stm32f10x_rcc.h>
+#include "delay.h"
 
 static int led_flag =0;//³õÊ¼µÆÃð
 void led_init()
@@ -43,9 +44,5 @@ void led_flick()
 	
 }
 
-void delay_ms(int len)
-{
-	 volatile unsigned int i = 6*1000*len;
-	 while(i--);
-}
+
  
