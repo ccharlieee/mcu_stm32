@@ -39,3 +39,6 @@
 .\objects\main.o: ..\USER\inc\oled.h
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdlib.h
 .\objects\main.o: ..\USER\inc\bmp.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\objects\main.o: ..\USER\inc\delay.h

@@ -502,6 +502,16 @@
               <FileType>1</FileType>
               <FilePath>..\USER\src\sys.c</FilePath>
             </File>
+            <File>
+              <FileName>delay.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\USER\inc\delay.h</FilePath>
+            </File>
+            <File>
+              <FileName>delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER\src\delay.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

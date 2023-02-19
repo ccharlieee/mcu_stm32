@@ -30,7 +30,8 @@
 #ifndef __OLED_H
 #define __OLED_H			  	 
 #include "sys.h"
-#include "stdlib.h"	    	
+#include "stdlib.h"	 
+
 //OLED模式设置
 //0:4线串行模式
 //1:并行8080模式
@@ -68,6 +69,10 @@
 
 #define OLED_CMD  0	//写命令
 #define OLED_DATA 1	//写数据
+
+extern int hour ;
+extern int min ;
+extern int second ;
 
 
 //OLED控制用函数

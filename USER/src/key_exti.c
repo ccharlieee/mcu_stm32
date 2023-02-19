@@ -2,6 +2,10 @@
 #include "led.h"
 #include <stm32f10x_exti.h>
 #include <misc.h>
+#include "oled.h"
+#include "delay.h"
+
+
 
 void EXTI_KEY()
 {
@@ -42,6 +46,10 @@ void EXTI15_10_IRQHandler()
 		delay_ms(20);
 		led_flick();
 	}
+	hour = 0;
+	min = 0;
+	second = 0;
+  
 	EXTI_ClearITPendingBit(EXTI_Line10);
 	
 }
